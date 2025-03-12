@@ -14,7 +14,7 @@ def get_response(usr_input: str) -> str:
          return f"You have rolled: {randint(1,6)} Yee-Yee!"
     elif lowered.strip() in rock_paper_scissors:
          rps_dict = {0: "rock", 1:"paper", 2:"scissors"}
-         player_choice = input("Input your choice: rock, paper, or scissors")
+         player_choice = usr_input.lower()
          bot_play = randint(0,2)
          if player_choice == rps_dict[bot_play]:
               return f"my choice was also: {rps_dict[bot_play]} seems we have a tie, awwh shucks!"
