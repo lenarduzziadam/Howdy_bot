@@ -13,10 +13,15 @@ def get_response(usr_input: str) -> str:
     elif lowered == "roll dice":
          return f"You have rolled: {randint(1,6)} Yee-Yee!"
     elif lowered.strip() in rock_paper_scissors:
-         rps_list = ["rock", "paper", "scissors"]
-         
+         rps_dict = {0: "rock", 1:"paper", 2:"scissors"}
+         player_choice = input("Input your choice: rock, paper, or scissors")
          bot_play = randint(0,2)
-         return rps_list[bot_play]
+         if player_choice == rps_dict[bot_play]:
+              return f"my choice was also: {rps_dict[bot_play]} seems we have a tie, awwh shucks!"
+         elif rps_dict[bot_play] != player_choice:
+              return "awaiting implementation"
+         
+         return rps_dict[bot_play]
     else:
          return choice(not_parsed)
          
