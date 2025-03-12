@@ -1,0 +1,10 @@
+2025-03-11 23:33:00,927 - INFO - logging in using static token
+2025-03-11 23:33:01,784 - INFO - Shard ID None has connected to Gateway (Session ID: 1e3e8685a77c6b2e50e605e60ddfc4d4).
+2025-03-11 23:34:35,254 - INFO - logging in using static token
+2025-03-11 23:34:36,047 - INFO - Shard ID None has connected to Gateway (Session ID: 55afe74d25fb1283f8990edc369c6a53).
+2025-03-11 23:34:52,979 - ERROR - Error occurred: unhashable type: 'set'
+2025-03-11 23:41:49,363 - INFO - logging in using static token
+2025-03-11 23:41:50,116 - INFO - Shard ID None has connected to Gateway (Session ID: 30fd7720db41a70b2f923e108bc90b53).
+2025-03-11 23:42:04,420 - ERROR - Error occurred: unhashable type: 'set'
+2025-03-11 23:43:50,674 - INFO - logging in using static token
+2025-03-11 23:43:51,442 - INFO - Shard ID None has connected to Gateway (Session ID: a6f292211d733e41a7212dd923487f90).
